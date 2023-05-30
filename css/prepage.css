@@ -35,7 +35,7 @@ ul.stacks li::after {
   /* 视口宽度 */
   width: 100vw;
   height: 100vh;
-  background-image: url(../images/2250245fc6f061ca9c213e12548bc24a.jpeg);
+  background-image: url(../images/2.jpg);
   /* 规定背景图像尺寸。	把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
 背景图像的某些部分也许无法显示在背景定位区域中。 */
   background-size: cover;
