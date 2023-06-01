@@ -6,7 +6,53 @@ body {
 a {
   text-decoration: none;
 }
+#expanding-cards {
+  display: flex;
+  width: 55vw;
+  position: absolute;
+  right: 5vw;
+  top: 20vh;
+}
 
+label {
+  height: 60vh;
+  flex: 0.5;
+  margin: 2vw;
+  border-radius: 60px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.7s ease-in;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input:checked+label {
+  flex: 5;
+}
+
+label:nth-of-type(1) {
+  background-image: url(http://pic21.photophoto.cn/20111120/0020032845797770_b.jpg);
+}
+
+label:nth-of-type(2) {
+  background-image: url(../images/1.jpeg);
+}
+
+label:nth-of-type(3) {
+  background-image: url(../images/3.jpeg);
+}
+
+label:nth-of-type(4) {
+  color: orange;
+  background-image: url(../images/4.jpg);
+}
+
+label:nth-of-type(5) {
+  background-image: url(../images/5.jpeg);
+}
 /* ul为弹性布局 */
 ul.stacks {
   position: relative;
