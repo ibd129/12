@@ -24,6 +24,7 @@ label {
   background-size: cover;
   background-repeat: no-repeat;
   transition: all 0.7s ease-in;
+  opacity:0.5;
 }
 
 input[type="radio"] {
