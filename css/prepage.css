@@ -12,7 +12,7 @@ a {
   position: absolute;
   right: 5vw;
   top: 20vh;
-  opacity:0.8;
+  opacity:0.9;
 }
 
 label {
@@ -24,7 +24,7 @@ label {
   background-size: cover;
   background-repeat: no-repeat;
   transition: all 0.7s ease-in;
-  opacity:0.8;
+  opacity:0.9;
 }
 
 input[type="radio"] {
